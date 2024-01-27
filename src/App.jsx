@@ -30,7 +30,7 @@ export default function App() {
       <span>or</span>
 
       <form>
-        <input type="text" placeholder='Phone, email or username' value={email} onClick={handleChange} />
+        <input type="text" placeholder='Email' value={email} onClick={handleChange} />
         <button>Next</button>
       </form>
 
